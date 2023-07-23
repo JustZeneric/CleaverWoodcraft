@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/767fb43fc0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>CleaverWoodcraft</title>
+</head>
+
+<body>
+    <section class="furniture-landing">
+        <section class="furniture-banner-container">
+            <div class="navigation-container">
+                <div class="logo"><a href="#">CleaverWoodcraft</a></div>
+                <div class="burger-menu">☰</div>
+                <ul class="menu-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#about-section">About</a></li>
+                    <li class="dropdown-btn"><a href="#">Our Work</a>
+                        <div class="dropdown-content">
+                          <a href="./furniture.html">Furniture</a>
+                          <a href="./decks.html">Decks</a>
+                          <a href="./structure.html">Structure</a>
+                        </div>
+                      </li>
+                    <li><a href="../index.html#contact-section">Contact</a></li>
+                    <div class="social-icons-container">
+                        <a href="https://www.instagram.com/cleaver_woodcraft_design/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/CleaverTimberDesign" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </ul>
+                <div class="social-icons-mobile">
+                    <a href="https://www.instagram.com/cleaver_woodcraft_design/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/CleaverTimberDesign" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="banner-text">
+                <div class="banner-border">
+                    <div class="slogan">
+                        <h1>Furniture</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="furniture-gallery-section">
+        <div class="furniture-header">
+            <h1>Transform Your Space with Timeless Wooden Furniture.</h1>
+        </div>
+        <div class="furniture-container">
+            <div class="furniture-image-one"></div>
+            <div class="furniture-image-two-text">
+                <div class="furniture-image-two"></div>
+                <div class="furniture-text">
+                <p>Discover the timeless beauty of handcrafted wood furniture at Cleaverwoodcraft. Each piece showcases
+                    exceptional craftsmanship, combining natural elegance and durability. From majestic dining tables to
+                    cozy yet stylish chairs, our furniture harmoniously blends aesthetics and functionality.</p>
+            </div>
+        </div>
+        </div>
+    <div class="carousel-Container">
+        <div class="carousel">
+
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="../Assests/FurniturePage/image1.jpg" alt="Image 1">
+                    <div class="img-Text">
+                        <h1></h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../Assests/FurniturePage/image2.jpg" alt="Image 2">
+                    <div class="img-Text">
+                        <h1></h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../Assests/FurniturePage/image3.jpg" alt="Image 3">
+                    <div class="img-Text">
+                        <h1></h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../Assests/FurniturePage/image4.jpg" alt="Image 4">
+                    <div class="img-Text">
+                        <h1></h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../Assests/FurniturePage/image5.jpg" alt="Image 5">
+                    <div class="img-Text">
+                        <h1></h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../Assests/FurniturePage/image6.jpg" alt="Image 6">
+                    <div class="img-Text">
+                        <h1></h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../Assests/FurniturePage/image7.jpg" alt="Image 7">
+                    <div class="img-Text">
+                        <h1>Img </h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../Assests/FurniturePage/image8.jpg" alt="Image 8">
+                    <div class="img-Text">
+                        <h1></h1>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control prev" href="#">
+                <span><i class="fa-solid fa-chevron-left"></i></span>
+            </a>
+            <a class="carousel-control next" href="#">
+                <span><i class="fa-solid fa-chevron-right"></i></span>
+            </a>
+        </div>
+    </div>
+    <div id="overlay">
+        <img id="enlarged-image" src="" alt="Enlarged Image">
+      </div>
+</section>
+    </section>
+    <script src="../script.js"></script>
+    <script>
+        $(document).ready(function() {
+          $('.dropdown-btn').click(function() {
+            $(this).toggleClass('active');
+            $(this).next('.dropdown-content').slideToggle();
+          });
+        });
+      </script>
+</body>
+
+</html>

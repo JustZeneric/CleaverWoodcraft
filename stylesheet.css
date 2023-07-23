@@ -1,0 +1,1569 @@
+/* Reset Browser */
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url(./Assests/BannerImage/BodyBackground.png);
+    background-size: contain;
+
+}
+/* Landing Page Styling */
+.landing-page {
+    background-color: #FAF9F6;
+
+}
+
+/* Banner Container Styling */
+.banner-container {
+
+    height: 600px;
+    width: 100%;
+    background-image: url(./Assests/BannerImage/Bannerimg.png);
+    background-position: center top;
+    background-size: cover;
+}
+
+/* Basic styling for the navigation bar */
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Logo styles */
+.logo a {
+    text-decoration: none;
+    color: #FFF8D6;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* Burger menu icon styles */
+.burger-menu {
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+/* Normal menu styles */
+.menu-list {
+    display: none;
+    height: 160px;
+    padding: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.123);
+}
+
+.menu-list li {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu-list a:hover {
+    color: rgb(0, 0, 0);
+}
+
+/* Show menu styles */
+.show-menu {
+    position: absolute;
+    left: 0;
+    top: 60px;
+    display: block;
+    background-color: #ffffff48;
+    width: 100%;
+}
+.dropdown-btn {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 20px;
+    z-index: 999;
+    background-color: #ffffff;
+    min-width: 160px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-btn.active .dropdown-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .dropdown-content a {
+    color: black;
+  }
+/* Hide Social Container For mobile */
+.social-icons-mobile {
+    display: none;
+}
+
+.social-icons-container {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons-container i {
+    font-size: 20px;
+}
+
+/* Banner Text Styling */
+.banner-text {
+    height: 100%;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Banner Border Styling */
+.banner-border {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+/* Slogan Styling */
+.slogan {
+    text-align: center;
+    width: 75%;
+}
+
+.slogan h1 {
+    font-size: 40px;
+    color: #FFF8D6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: -30px;
+}
+
+/* About Greg Styling */
+.about-greg {
+    text-align: center;
+    width: 100%;
+}
+
+.about-greg p {
+    color: #FFF8D6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+/* GoTo Links Styling */
+.goto-links {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.goto-links a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF8D6;
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    width: 150px;
+    border: 1px solid #FFF8D6;
+    border-radius: 12px;
+
+}
+
+.goto-links a:hover {
+    color: white;
+    border-color: rgb(255, 255, 255);
+}
+
+/* About Section Styling */
+#about-section {
+    height: 100%;
+
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* About Container Styling */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.about-container h1 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.about-paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.about-container p {
+    text-align: center;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    width: 85%;
+}
+
+/* About image Container Styling */
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+/* About Image Styling */
+.about-image {
+    background-image: url(./Assests/BannerImage/Group\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 470px;
+    height: 450px;
+}
+
+/* About Image Header Styling */
+.about-image-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.about-image-header h1 {
+    width: 70%;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    text-align: center;
+}
+
+.about-image-header p {
+    width: 60%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+.learn-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin-top: 15px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.about-image-header a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+/* Sample Section Styling */
+#sample-section {
+    flex-direction: column;
+    align-items: center;
+
+
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.sample-one {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sample-one-image {
+    background-image: url(./Assests/BannerImage/Group\ 2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    height: 500px;
+}
+
+.sample-one-header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sample-one-header h1 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 33px;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+}
+
+.sample-one-header p {
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+}
+
+.sample-one-header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sample-one-header a:hover {
+    color: rgb(196, 196, 196);
+}
+
+/* Sample Two Styling */
+.sample-two {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sample-two-image {
+    display: none;
+    background-image: url(./Assests/BannerImage/Group\ 3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    height: 450px;
+    margin-top: 50px;
+}
+
+.sample-two-mobile {
+    background-image: url(./Assests/BannerImage/Group\ 3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    height: 450px;
+    margin-top: 50px;
+}
+
+.sample-two-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sample-two-header h1 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 33px;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+}
+
+.sample-two-header p {
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+}
+
+.sample-two-header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sample-two-header a:hover {
+    color: rgb(196, 196, 196);
+}
+
+/* Sample Three Styling */
+.sample-three {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sample-three-image {
+    background-image: url(./Assests/BannerImage/Group\ 4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    height: 450px;
+    margin-top: 50px;
+}
+
+.sample-three-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sample-three-header h1 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 33px;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+}
+
+.sample-three-header p {
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+}
+
+.sample-three-header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sample-three-header a:hover {
+    color: rgb(196, 196, 196);
+}
+
+/* Contact Form Styling */
+#contact-section {
+    height: auto;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-header {
+    width: 90%;
+}
+
+#contact-section h1 {
+    width: 70%;
+    font-size: 40px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    outline: none;
+    width: 70%;
+}
+
+.form-row {
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.form-col {
+    width: 100%;
+    padding-right: 10px;
+}
+
+.form-colmessage {
+    width: 97%;
+}
+
+label {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    resize: vertical;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%;
+}
+
+/* Footer Section Styling */
+.footer-section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    background-color: black;
+    align-items: center;
+}
+
+.footer-section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.footer-nav-links {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+
+.footer-nav-links a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.contact-info h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    width: 26%;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.contact-info a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+}
+
+.contact-info h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+/* Foot Socials Styling */
+.footer-socials {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-socials i {
+    font-size: 20px;
+    color: white;
+}
+
+/* Footer Separator Styling */
+.footer-separator {
+    border-top: 1px solid white;
+    width: 90%;
+    margin-top: 20px;
+}
+
+/* Disclaimer Styling */
+.disclaimer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 95%;
+}
+
+.disclaimer a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+.disclaimer h1 {
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* Furniture Page Styling */
+.furniture-Landing {
+    background-color: #FAF9F6;
+}
+
+.furniture-header {
+    text-align: center;
+    width: 77%;
+}
+
+.furniture-header h1 {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.furniture-banner-container {
+    height: 500px;
+    width: 100%;
+    background-image: url(./Assests/FurniturePage/pexels-ono-kosuki-5973909.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.furniture-gallery-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./Assests/BannerImage/pngwing.com\ \(3\).png);
+}
+
+.furniture-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+.furniture-image-one {
+    background-image: url(./Assests/FurniturePage/image1.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.furniture-image-two-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+
+}
+.furniture-text {
+text-align: center;
+}
+.furniture-image-two-text p {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.furniture-image-two {
+    background-image: url(./Assests/FurniturePage/image2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.carousel-Section {
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+
+.carousel-Container {
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.carousel-Heading {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 25px;
+    color: white;
+}
+
+.carousel-border {
+    width: 100%;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.carousel img {
+    position: relative;
+    height: 330px;
+    border-radius: 5px;
+    width: 70%;
+    transition: filter 0.3s ease;
+    border-radius: 5px;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.carousel img:hover {
+    filter: brightness(50%);
+    transform: scale(1.05);
+}
+
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.img-Text {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    color: #fff;
+    transition: opacity 1s ease;
+    z-index: 2;
+
+}
+
+.carousel-item:hover .img-Text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.carousel-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    color: #000000;
+    text-decoration: none;
+    z-index: 2;
+}
+
+.carousel-control span {
+    font-size: 24px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-control.prev {
+    left: 20px;
+}
+
+.carousel-control.next {
+    right: 20px;
+}
+.carousel img.enlarged {
+    width: 800px;
+    height: 800px;
+  }
+  #overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+  }
+  
+  #enlarged-image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  #overlay.show {
+    display: flex;
+  }
+
+  /* Decks Styling Page */
+  .decks-Landing {
+    background-color: #FAF9F6;
+}
+
+.decks-header {
+    text-align: center;
+    width: 77%;
+}
+
+.decks-header h1 {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.decks-banner-container {
+    height: 500px;
+    width: 100%;
+    background-image: url(./Assests/DecksPage/DeckBanner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.decks-gallery-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.decks-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+.decks-image-one {
+    background-image: url(./Assests/DecksPage/image1.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.decks-image-two-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+
+}
+.decks-text {
+text-align: center;
+}
+.decks-image-two-text p {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.decks-image-two {
+    background-image: url(./Assests/DecksPage/image7.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* Media query for desktop view */
+@media screen and (min-width: 768px) {
+
+    /* Banner Container Styling */
+    .banner-container {
+        height: 600px;
+        width: 100%;
+        background-image: url(./Assests/BannerImage/Bannerimg.png);
+        background-position: center top;
+        background-size: cover;
+    }
+
+    .navigation-container {
+        display: flex;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .menu-list {
+        display: flex;
+        position: absolute;
+        gap: 60px;
+        padding: 0;
+        top: 15px;
+        right: 50%;
+        height: auto;
+        transform: translate(50%);
+        box-shadow: 0px 0px transparent;
+    }
+
+    .menu-list li {
+        display: flex;
+        margin-bottom: 0;
+    }
+    .dropdown-btn {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        top: 20px;
+        z-index: 999;
+        background-color: #000000;
+        min-width: 160px;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+      
+      .dropdown-btn.active .dropdown-content {
+        display: flex;
+        flex-direction: column;
+      }
+    .menu-list a {
+        font-size: 16px;
+        font-weight: 200;
+        color: #FFF8D6;
+    }
+    .menu-list a:hover {
+        color: white;
+    }
+    .social-icons-mobile {
+        display: flex;
+        gap: 20px;
+    }
+
+    .social-icons-mobile a {
+        color: white;
+        font-size: 25px;
+    }
+
+    .social-icons-mobile a:hover {
+        color: rgb(255, 218, 149);
+    }
+
+    .social-icons-container {
+        display: none;
+    }
+
+    /* Banner Border Styling */
+    .banner-border {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+    }
+
+    /* Slogan Styling */
+    .slogan {
+        text-align: center;
+        width: 449px;
+    }
+
+    .slogan h1 {
+        font-size: 48px;
+        color: #FFF8D6;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        margin-bottom: 10px;
+
+    }
+
+    /* GoTo Links Styling */
+    .goto-links {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .goto-links a {
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        color: #FFF8D6;
+        text-align: center;
+        margin-top: 30px;
+        padding: 15px;
+        width: 250px;
+        border: 1px solid #FFF8D6;
+        border-radius: 12px;
+
+    }
+
+    /* About Greg Styling */
+    .about-greg {
+        text-align: center;
+        width: 567px;
+    }
+
+    .about-greg p {
+        color: #FFF8D6;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+
+    .about-paragraph {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .about-Container p {
+        text-align: center;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        width: 85%;
+    }
+
+    .learn-more a:hover {
+        color: rgb(252, 243, 195);
+    }
+
+    /* About image Container Styling */
+    .about-image-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        width: 50%;
+        height: auto;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    /* About Image Styling */
+    .about-image {
+        background-image: url(./Assests/BannerImage/Group\ 1.png);
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    /* About Image Header Styling */
+    .about-image-header h1 {
+        text-align: left;
+        color: black;
+        width: auto;
+        margin-top: 20px;
+    }
+
+    .about-image-header p {
+        text-align: left;
+        color: black;
+        width: auto;
+        margin-top: 20px;
+    }
+
+    .learn-more {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    #sample-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sample-one {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .sample-one-image {
+        margin-top: 100px;
+        display: flex;
+        border-radius: 10px;
+        height: 450px;
+        width: 40%;
+    }
+
+    .sample-one-header {
+        display: flex;
+        justify-content: start;
+        text-align: left;
+        align-items: center;
+        width: 50%;
+    }
+
+    .sample-two {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .sample-two-image {
+        margin-top: 100px;
+        display: flex;
+        border-radius: 10px;
+        height: 450px;
+        width: 40%;
+    }
+
+    .sample-two-header {
+        display: flex;
+        justify-content: start;
+        text-align: left;
+        align-items: center;
+        width: 50%;
+    }
+
+    .sample-two-mobile {
+        display: none;
+    }
+
+    .sample-three {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .sample-three-image {
+        margin-top: 100px;
+        display: flex;
+        border-radius: 10px;
+        height: 450px;
+        width: 40%;
+    }
+
+    .sample-three-header {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        text-align: left;
+        width: 50%;
+    }
+
+    #contact-section h1 {
+        width: 40%;
+        font-size: 40px;
+        padding: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .contact-header {
+        width: 50%;
+    }
+
+    .form-row {
+        flex-wrap: nowrap;
+        width: 70%;
+    }
+
+    .form-col {
+        width: 50%;
+        padding-right: 15px;
+    }
+
+    .form-colmessage {
+        width: 50%;
+        padding-right: 15px;
+    }
+
+    input[type="submit"] {
+        background-color: #000000;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 30%;
+    }
+
+    .furniture-header {
+        text-align: center;
+        width: 77%;
+    }
+    
+    .furniture-header h1 {
+        text-align: left;
+        width: 30%;
+        height: 100%;
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .furniture-banner-container {
+        height: 500px;
+        width: 100%;
+        background-image: url(./Assests/FurniturePage/pexels-ono-kosuki-5973909.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .furniture-gallery-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .furniture-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        gap: 20px;
+        width: 77%;
+        margin-bottom: 50px;
+    }
+    .furniture-image-one {
+        background-image: url(./Assests/FurniturePage/image1.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        width: 500px;
+        height: 500px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .furniture-image-two-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    
+        width: 65%;
+        height: 500px;
+    
+    }
+    .furniture-text {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 400px;
+    }
+    .furniture-image-two-text p {
+        width: 90%;
+        text-align: left;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .furniture-image-two {
+        background-image: url(./Assests/FurniturePage/image2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        border-radius: 5px;
+        height: 400px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .carousel-Container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .carousel-item {
+        flex: 0 0 33%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+        position: relative;
+        transition: transform 0.3s ease;
+        
+    }
+
+    .carousel img {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        position: relative;
+        height: 350px;
+        width: 350px;
+        transition: filter 0.3s ease;
+        border-radius: 5px;
+        z-index: 1;
+    }
+    .carousel img.enlarged {
+        width: 800px;
+        height: 800px;
+      }
+      #overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        overflow: auto;
+      }
+      
+      #enlarged-image {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+      }
+      
+      #overlay.show {
+        display: flex;
+      }
+      .decks-header {
+        text-align: center;
+        width: 77%;
+    }
+    
+    .decks-header h1 {
+        text-align: left;
+        width: 30%;
+        height: 100%;
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .decks-banner-container {
+        height: 500px;
+        width: 100%;
+        background-image: url(./Assests/DecksPage/DeckBanner.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .decks-gallery-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .decks-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        gap: 20px;
+        width: 77%;
+        margin-bottom: 50px;
+    }
+    .decks-image-one {
+        background-image: url(./Assests/DecksPage/image1.jpg);
+        background-size: cover;
+        background-position: left center;
+        border-radius: 5px;
+        width: 500px;
+        height: 500px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .decks-image-two-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    
+        width: 65%;
+        height: 500px;
+    
+    }
+    .decks-text {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 400px;
+    }
+    .decks-image-two-text p {
+        width: 90%;
+        text-align: left;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .decks-image-two {
+        background-image: url(./Assests/DecksPage/image7.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        border-radius: 5px;
+        height: 400px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .structure-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        gap: 20px;
+        width: 77%;
+        margin-bottom: 50px;
+    }
+    .structure-gallery-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    .structure-text {
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 400px;
+    }
+    .structure-image-two-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+    }
+    .structure-image-one {
+        background-image: url(./Assests/FurniturePage/image1.jpg);
+        background-size: cover;
+        background-position: left center;
+        border-radius: 5px;
+        width: 500px;
+        height: 500px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .structure-image-two {
+        background-image: url(./Assests/FurniturePage/image2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        border-radius: 5px;
+        height: 400px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+}

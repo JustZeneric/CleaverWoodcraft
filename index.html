@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/767fb43fc0.js" crossorigin="anonymous"></script>
+    <title>CleaverWoodcraft</title>
+</head>
+
+<body>
+    <section class="landing-page">
+        <section class="banner-container">
+            <div class="navigation-container">
+                <div class="logo"><a href="#">CleaverWoodcraft</a></div>
+                <div class="burger-menu">☰</div>
+                <ul class="menu-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about-section">About</a></li>
+                    <li class="dropdown-btn"><a href="#">Our Work</a>
+                        <div class="dropdown-content">
+                          <a href="./Html/furniture.html">Furniture</a>
+                          <a href="./Html/decks.html">Decks</a>
+                        </div>
+                      </li>
+                    <li><a href="#contact-section">Contact</a></li>
+                    <div class="social-icons-container">
+                        <a href="https://www.instagram.com/cleaver_woodcraft_design/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/CleaverTimberDesign" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </ul>
+                <div class="social-icons-mobile">
+                    <a href="https://www.instagram.com/cleaver_woodcraft_design/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/CleaverTimberDesign" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="banner-text">
+                <div class="banner-border">
+                    <div class="slogan">
+                        <h1>Crafted with Precision, Built to Perfection</h1>
+                    </div>
+                    <div class="about-greg">
+                        <p>Greg Cleaver is a talented carpenter who worked on movie sets, bringing his exceptional
+                            skills to
+                            the world of filmmaking. With a deep passion for woodworking, Greg has dedicated years to
+                            perfecting his craft, making him a highly sought-after professional in the industry.</p>
+                    </div>
+                    <div class="goto-links">
+                        <a href="#sample-section">Our Work</a>
+                        <a href="#contact-section">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="about-section">
+        <div class="about-container">
+            <h1>About us</h1>
+            <div class="about-paragraph">
+                <p>Cleaverwoodcraft, a renowned woodworking company, was a beacon of craftsmanship and quality. Under
+                    the
+                    guidance of Greg Cleaver, a master woodworker, they created exquisite handcrafted wooden
+                    masterpieces
+                    that captured the hearts of many.</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="about-image-container">
+                <div class="about-image"></div>
+                <div class="about-image-header">
+                    <h1>Crafting Wood, Shaping Dreams</h1>
+                    <p>Transforming your space with artisanal woodworking expertise.</p>
+                    <div class="learn-more">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sample-section">
+        <div class="sample-one">
+            <div class="sample-one-image"></div>
+            <div class="sample-one-header">
+                <h1>Transform Your Space with Timeless Wooden Furniture.</h1>
+                <p>Discover the timeless beauty of handcrafted wood furniture at Cleaverwoodcraft. Each piece showcases
+                    exceptional craftsmanship, combining natural elegance and durability. From majestic dining tables to
+                    cozy
+                    yet stylish chairs, our furniture harmoniously blends aesthetics and functionality.</p>
+                <a href="./Html/furniture.html">View More</a>
+            </div>
+        </div>
+        <div class="sample-two">
+            <div class="sample-two-mobile"></div>
+            <div class="sample-two-header">
+                <h1>Elevate Your Outdoor Space with Exquisite Decks</h1>
+                <p>Step into the realm of outdoor living with the breathtaking decks crafted by Cleaverwoodcraft. Our
+                    team
+                    of skilled artisans combines their expertise with a deep appreciation for nature to create stunning
+                    outdoor spaces that seamlessly blend with their surroundings.</p>
+                <a href="./Html/decks.html">View More</a>
+            </div>
+            <div class="sample-two-image"></div>
+        </div>
+    </section>
+    <section id="contact-section">
+        <div class="contact-header">
+            <h1>Reach Out, Let's Carve Your Dreams Together</h1>
+        </div>
+        <form action="send_email.php" method="POST">
+            <div class="form-row">
+                <div class="form-col">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-col">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-col">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-col">
+                    <label for="cell">Cell Number:</label>
+                    <input type="tel" id="cell" name="cell">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-colmessage">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+            </div>
+            <div class="form-row">
+                <input type="submit" class="submit-btn" value="Submit">
+              </div>
+        </form>
+    </section>
+    <section class="footer-section">
+        <h1>CleaverWoodcraft</h1>
+        <div class="footer-nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Our Work</a></li>
+            <li><a href="#">Contact</a></li>
+        </div>
+        <div class="contact-info">
+            <h2>Contact</h2>
+            <a href="mailto:greg.cleaver@gmail.com">greg.cleaver@gmail.com</a>
+            <a href="#">063 794 4914</a>
+            <h3>Hermanus & Surrounding Areas</h3>
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/cleaver_woodcraft_design/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/CleaverTimberDesign" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="footer-separator"></div>
+        <div class="disclaimer">
+            <a href="#">Privacy Policies</a>
+            <h1>@2023 CleaverWoodcraft. All Rights Reserved</h1>
+            <a href="#">Cookie Policies</a>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        var isFormSubmitting = false; // Flag to prevent multiple submissions
+        
+        $('form').submit(function(event) {
+          event.preventDefault(); // Prevent the default form submission
+          
+          if (isFormSubmitting) {
+            return; // Exit if form is already being submitted
+          }
+          
+          var firstName = $('#firstName').val();
+          var lastName = $('#lastName').val();
+          var email = $('#email').val();
+          var cell = $('#cell').val();
+          var message = $('#message').val();
+          
+          // Check if form was submitted within the last 10 seconds
+          var lastSubmissionTime = localStorage.getItem('lastSubmissionTime');
+          if (lastSubmissionTime && (Date.now() - lastSubmissionTime < 10000)) {
+            alert('Please wait before submitting another message.');
+            return; // Exit if form was submitted recently
+          }
+          
+          // Set the current submission time in localStorage
+          localStorage.setItem('lastSubmissionTime', Date.now());
+          
+          isFormSubmitting = true; // Set the flag to prevent multiple submissions
+          
+          // Replace submit button text with spinning icon
+          var originalButtonText = $('.submit-btn').html();
+          $('.submit-btn').html('<i class="fas fa-spinner fa-spin"></i>');
+          
+          $.ajax({
+            url: 'send_email.php',
+            type: 'POST',
+            data: {firstName: firstName, lastName: lastName, email: email, cell: cell, message: message},
+            success: function(response) {
+              showSuccessMessage('Message sent successfully!');
+              // Additional code to clear the form or perform other actions after successful submission
+              
+              // Reset form and submit button
+              $('form')[0].reset();
+              $('.submit-btn').html(originalButtonText);
+              isFormSubmitting = false; // Reset the flag
+            },
+            error: function() {
+              alert('There was a problem sending the email.');
+              // Additional error handling code if necessary
+              
+              // Reset submit button
+              $('.submit-btn').html(originalButtonText);
+              isFormSubmitting = false; // Reset the flag
+            }
+          });
+        });
+        
+        function showSuccessMessage(message) {
+          var popup = $('<div class="success-popup">' + message + '</div>');
+          $('body').append(popup);
+          setTimeout(function() {
+            popup.fadeOut('slow', function() {
+              popup.remove();
+            });
+          }, 5000); // 5 seconds
+        }
+      });
+    </script>
+    <style>
+      .success-popup {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #000000;
+        color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        z-index: 9999;
+      }
+    </style>
+      <script>
+    $(document).ready(function() {
+      $('.dropdown-btn').click(function() {
+        $(this).toggleClass('active');
+        $(this).next('.dropdown-content').slideToggle();
+      });
+    });
+  </script>
+</body>
+
+</html>
